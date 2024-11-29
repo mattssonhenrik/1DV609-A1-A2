@@ -6,7 +6,7 @@ public class Main {
     }
 
 public String helloWorld (){
-    return "Hello Worldd";
+    return "Hello World";
 }
 
 public static void main(String[] args) {
