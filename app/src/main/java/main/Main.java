@@ -4,11 +4,9 @@ public class Main {
     public Main() {
         System.out.println(helloWorld());    
     }
-    
-
 
 public String helloWorld (){
-    return "Hello World";
+    return "Hello Worldd";
 }
 
 public static void main(String[] args) {

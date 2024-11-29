@@ -32,5 +32,18 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "main.Main.java"
+    mainClass = "main.Main"
+}
+
+tasks.test {
+    testLogging {
+        // Show standard out and standard error of the test
+        showStandardStreams = true
+        
+        // Log results for every test
+        events("passed", "skipped", "failed")
+        
+        // Log stack trace for failed tests
+        exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
+    }
 }
